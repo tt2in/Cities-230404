@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.slide .item{
+    height: 500px;
+    background-image: url(../images/slide_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    font-size: 40px;
+    text-align: center;
+}
+
+.gnb{
+    display: flex;
+    /* margin-bottom: 30px; */
+    justify-content: center;
+    /* background-color: #f7fc8c; */
+}
+
+.gnb li a{
+    padding: 20px 20px;
+    margin: 30px 30px;
+    display: block;
+    /* background-color: red; */
+    font-weight: bold;
+}
+
+.gnb li a:hover{
+    color: aquamarine;
+}
+
+.main{
+   margin: 30px 0;
+}
+
+.main h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main p{
+    margin-bottom: 25px;
+}
+
+.main .texts p b{
+    font-size: 17px;
+}
+
+.main .texts p:nth-child(1) b{
+    color: red;
+}
+
+.main .texts p:nth-child(2) b{
+    color: green;
+}
+
+.main .texts p:nth-child(3) b{
+    color: blue;
+}
+
+.copyright{
+    border-top: 1px solid #ccc;
+    padding: 30px 0;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
